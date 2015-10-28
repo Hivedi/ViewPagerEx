@@ -1,5 +1,9 @@
 # ViewPagerEx
-ViewPager with some extra features
+ViewPager with some extra features:
+* enable/disable swipe gesture
+* animation interpolator
+* animation time
+* fixed WRAP_CONTENT of height
 
 ###Repo
 ```
@@ -46,4 +50,8 @@ pager.setAdapter(new FragmentStatePagerAdapter(getSupportFragmentManager()) {
 pager.setScrollAnimTime(500);
 // interpolator
 pager.setScrollInterpolator(new BounceInterpolator());
+// disable gests
+pager.deactivate();
+// enable
+pager.activate();
 ```
