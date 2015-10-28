@@ -104,7 +104,7 @@ public class ViewPagerEx extends ViewPager {
     private void init(Context context, AttributeSet attrs) {
         if (attrs != null) {
             TypedArray ta = context.obtainStyledAttributes(attrs, new int[]{android.R.attr.layout_height});
-            useWrapContentToHeight = ta.getLayoutDimension(0, ViewPager.LayoutParams.MATCH_PARENT) == LayoutParams.WRAP_CONTENT;
+            useWrapContentToHeight = ta.getLayoutDimension(0, LayoutParams.MATCH_PARENT) == LayoutParams.WRAP_CONTENT;
             ta.recycle();
         }
 
