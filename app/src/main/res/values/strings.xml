@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ViewPagerEx Example</string>
+
+    <string-array name="interpolators">
+        <item>LinearInterpolator</item>
+        <item>AccelerateInterpolator</item>
+        <item>AccelerateDecelerateInterpolator</item>
+        <item>DecelerateInterpolator</item>
+        <item>BounceInterpolator</item>
+        <item>AnticipateInterpolator</item>
+        <item>AnticipateOvershootInterpolator</item>
+    </string-array>
+
+    <string-array name="times">
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
+
+    <string name="spin1">Select interpolator (DecelerateInterpolator)</string>
+    <string name="spin2">Select time (250ms)</string>
+</resources>
