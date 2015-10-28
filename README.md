@@ -17,7 +17,7 @@ repositories {
 ###Dependences
 ```
 dependencies {
-	compile 'com.github.Hivedi:QueryBuilder:1.0.0'
+	compile 'com.github.Hivedi:ViewPagerEx:1.0.1'
 }
 ```
 
