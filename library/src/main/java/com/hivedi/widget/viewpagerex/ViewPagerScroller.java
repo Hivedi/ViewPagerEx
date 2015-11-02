@@ -1,4 +1,4 @@
-package com.hivedi.widget;
+package com.hivedi.widget.viewpagerex;
 
 import android.content.Context;
 import android.view.animation.Interpolator;

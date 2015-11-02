@@ -17,7 +17,7 @@ repositories {
 ###Dependences
 ```
 dependencies {
-	compile 'com.github.Hivedi:ViewPagerEx:1.0.1'
+	compile 'com.github.Hivedi:ViewPagerEx:1.0.2'
 }
 ```
 
@@ -25,7 +25,7 @@ dependencies {
 
 In layout:
 ```xml
-<com.hivedi.widget.ViewPagerEx
+<com.hivedi.widget.viewpagerex.ViewPagerEx
 	android:id="@+id/pager"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"/>

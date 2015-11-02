@@ -18,7 +18,7 @@ import android.view.animation.LinearInterpolator;
 import android.widget.AdapterView;
 import android.widget.Spinner;
 
-import com.hivedi.widget.ViewPagerEx;
+import com.hivedi.widget.viewpagerex.ViewPagerEx;
 
 public class MainActivity extends AppCompatActivity {
 

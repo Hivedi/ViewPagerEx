@@ -1,4 +1,4 @@
-package com.hivedi.widget;
+package com.hivedi.widgetx;
 
 import org.junit.Test;
 
